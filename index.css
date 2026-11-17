@@ -70,3 +70,26 @@ h1,h2,h3{
 .menu a.atual{
     background-color: var(--fita);
 }
+.cartazes{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    padding: 40px;
+}
+.cartaz-principal{
+    background-color: var(--caixa-dagua);
+    color: var(--branco);
+     flex: 2;
+}
+.cartaz-principal h1{
+    font-size: 132px;
+    max-lines: 9ch;
+}
+.cartaz-lateral{
+    background-color: var(--fita);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
